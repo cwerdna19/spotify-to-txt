@@ -1,5 +1,3 @@
-#
-
 $path = ".\current_spotify_song.txt"
 
 While ($True) {
