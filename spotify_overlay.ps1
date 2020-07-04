@@ -14,7 +14,7 @@ While ($True) {
     $no_song | Out-File -FilePath $path -Encoding utf8
     $write = "`rCurrent song: " + $no_song
   } Else {
-    $current_song | Out-File -FilePath F:\Programming\Powershell\OBS\current_spotify_song.txt -Encoding utf8
+    $current_song | Out-File -FilePath $path -Encoding utf8
     $write = "`rCurrent song: " + $current_song
   }
 
